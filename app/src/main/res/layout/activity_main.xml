@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome">
+<ImageView
+    android:id="@+id/app_logo"
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:src="@drawable/applogo"
+        />
+
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:hint="@string/username_label"
+        />
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:hint="@string/password_label" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_text" />
+
+    <Button
+        android:id="@+id/show_notification_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Notification" />
+
+    <Button
+        android:id="@+id/servici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porniti Serviciul" />
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Find, Discover, Choose and Buy anything online"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/mapsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Maps" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

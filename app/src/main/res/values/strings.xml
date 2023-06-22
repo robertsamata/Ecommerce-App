@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">eCommerce</string>
+    <string name="login_button_text">Log In</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="show_notification_button">Notification</string>
+    <string name="servici">Porniti Serviciul</string>
+</resources>
